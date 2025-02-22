@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
+  :root {
+    font-size: 62.5%;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,6 @@ export const GlobalStyles = createGlobalStyle`
 
   body, input, button, textarea {
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
     outline: none;
   }
 

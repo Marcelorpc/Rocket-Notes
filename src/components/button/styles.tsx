@@ -5,11 +5,11 @@ export const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
-  height: 56px;
+  height: 5.6em;
   border: 0;
-  padding: 0 16px;
-  margin-top: 16px;
-  border-radius: 10px;
+  padding: 0 1.6em;
+  margin-top: 1.6em;
+  border-radius: 1em;
   font-weight: 500;
 
   &:disabled {
